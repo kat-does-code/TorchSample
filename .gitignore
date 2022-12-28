@@ -72,3 +72,20 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+
+# BLender
+
+*.pyc
+*.blend[1-9]
+torch_simple__pycache__
+torch_simple.mypy_cache/
+torch_simple.coverage
+torch_simple/.tox/
+torch_simple/.pytest_cache
+torch_simple/dist/
+torch_simple/build/
+torch_simple/*.egg-info/
+torch_simple/.cache
+torch_simple/cache*
+torch_simple/docs/_build
